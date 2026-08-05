@@ -1,0 +1,7 @@
+screenshots/
+.DS_Store
+Thumbs.db
+*.log
+.env
+portfolia/
+verify_links.py

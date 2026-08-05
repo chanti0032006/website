@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A semantic, accessible personal portfolio for a product designer and front-end developer focused on clear, inclusive digital experiences.">
+  <meta name="keywords" content="portfolio, accessible web design, semantic HTML, WCAG, front-end developer, product designer">
+  <meta name="author" content="Portfolio">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio | Accessible Front-End Work">
+  <meta property="og:description" content="Semantic, SEO-friendly portfolio pages with WCAG-aligned structure and accessible navigation.">
+  <meta property="og:site_name" content="Portfolio">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio | Accessible Front-End Work">
+  <meta name="twitter:description" content="Semantic, SEO-friendly portfolio pages with WCAG-aligned structure and accessible navigation.">
+  <title>Portfolio | Accessible Front-End Work</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="brand-block">
+      <p class="eyebrow">Personal Portfolio</p>
+      <a class="brand" href="index.html" aria-label="Portfolio home">Portfolio</a>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary navigation" role="navigation">
+      <a class="nav-link is-current" href="index.html" aria-current="page">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Semantic HTML5 and WCAG-first design</p>
+        <h1 id="hero-title">Building portfolios that are easy to read, easy to navigate, and easy to trust.</h1>
+        <p class="lead">This portfolio skeleton is structured for screen readers, keyboard users, and search engines, with clear landmarks, descriptive metadata, and accessible interaction patterns.</p>
+        <div class="hero-actions" aria-label="Primary actions">
+          <a class="button button-primary" href="projects.html">View projects</a>
+          <a class="button button-secondary" href="contact.html">Start a conversation</a>
+        </div>
+      </div>
+
+      <aside class="hero-aside" aria-label="Profile summary">
+        <figure class="profile-card">
+          <div class="profile-art" aria-hidden="true"></div>
+          <figcaption>
+            <strong>Focus:</strong> accessible front-end systems, content strategy, and polished HTML structure.
+          </figcaption>
+        </figure>
+        <ul class="stats-list" aria-label="Highlights">
+          <li><strong>100%</strong> semantic structure</li>
+          <li><strong>Keyboard</strong> friendly navigation</li>
+          <li><strong>SEO</strong> ready metadata</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="content-grid" aria-labelledby="featured-heading">
+      <div>
+        <h2 id="featured-heading">Featured capabilities</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Accessible architecture</h3>
+            <p>Landmarks, headings, and form controls are organized for assistive technologies and consistent keyboard flow.</p>
+          </article>
+          <article class="card">
+            <h3>SEO-friendly foundations</h3>
+            <p>Each page includes descriptive titles, meta descriptions, and social metadata for stronger discoverability.</p>
+          </article>
+          <article class="card">
+            <h3>Responsive presentation</h3>
+            <p>The layout adapts from a focused single-column mobile view to a balanced multi-column desktop composition.</p>
+          </article>
+        </div>
+      </div>
+
+      <aside class="sidebar" aria-labelledby="quick-facts-heading">
+        <h2 id="quick-facts-heading">Quick facts</h2>
+        <dl class="facts">
+          <div>
+            <dt>Location</dt>
+            <dd>Available remotely</dd>
+          </div>
+          <div>
+            <dt>Role</dt>
+            <dd>Front-end developer</dd>
+          </div>
+          <div>
+            <dt>Strength</dt>
+            <dd>Structured, accessible content</dd>
+          </div>
+        </dl>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>Built with semantic HTML5, accessible navigation, and clear content hierarchy.</p>
+    <p class="status-note">All internal links are connected properly.</p>
+    <address>
+      <a href="contact.html">Contact the portfolio owner</a>
+    </address>
+  </footer>
+</body>
+</html>

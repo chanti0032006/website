@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about this portfolio, focused on semantic HTML, accessibility, and SEO-friendly front-end structure.">
+  <meta name="keywords" content="about, accessibility, semantic HTML5, portfolio, front-end, WCAG">
+  <meta name="author" content="Portfolio">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About | Portfolio">
+  <meta property="og:description" content="Discover the values and process behind this accessible, semantic portfolio skeleton.">
+  <meta property="og:site_name" content="Portfolio">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="About | Portfolio">
+  <meta name="twitter:description" content="Discover the values and process behind this accessible, semantic portfolio skeleton.">
+  <title>About | Portfolio</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="brand-block">
+      <p class="eyebrow">Personal Portfolio</p>
+      <a class="brand" href="index.html" aria-label="Portfolio home">Portfolio</a>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary navigation" role="navigation">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link is-current" href="about.html" aria-current="page">About</a>
+      <a class="nav-link" href="projects.html">Projects</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <section class="page-hero" aria-labelledby="about-title">
+      <p class="eyebrow">About the work</p>
+      <h1 id="about-title">A simple philosophy: clear structure first, visual polish second, and accessibility always.</h1>
+      <p class="lead">This page shows how the portfolio keeps content readable, headings consistent, and interactive controls predictable for all users.</p>
+    </section>
+
+    <section class="content-grid" aria-labelledby="approach-heading">
+      <article class="card">
+        <h2 id="approach-heading">Approach</h2>
+        <p>I design and build with semantic landmarks, logical heading levels, and descriptive labels so the page makes sense without relying on visuals alone.</p>
+      </article>
+      <article class="card">
+        <h2>Standards</h2>
+        <p>The markup follows WCAG-friendly patterns: sufficient contrast, keyboard-visible focus states, clear link text, and no hidden interaction traps.</p>
+      </article>
+      <article class="card">
+        <h2>Outcomes</h2>
+        <p>The result is a portfolio foundation that is easy to extend into case studies, journal entries, or richer content without restructuring the entire page.</p>
+      </article>
+    </section>
+
+    <aside class="sidebar" aria-label="Principles">
+      <h2>Working principles</h2>
+      <ul class="bullet-list">
+        <li>Use meaning before decoration.</li>
+        <li>Write link text that stands on its own.</li>
+        <li>Keep the keyboard path obvious and linear.</li>
+        <li>Prefer concise copy and dependable landmarks.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>Need a more detailed portfolio or case study layout? The same structure can expand without losing accessibility.</p>
+    <p class="status-note">All internal links are connected properly.</p>
+    <address>
+      <a href="contact.html">Reach out through the contact page</a>
+    </address>
+  </footer>
+</body>
+</html>

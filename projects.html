@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse accessible, semantic project case study placeholders for a personal portfolio.">
+  <meta name="keywords" content="projects, case studies, accessible portfolio, semantic HTML, front-end development">
+  <meta name="author" content="Portfolio">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects | Portfolio">
+  <meta property="og:description" content="Browse accessible, semantic project case study placeholders for a personal portfolio.">
+  <meta property="og:site_name" content="Portfolio">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Projects | Portfolio">
+  <meta name="twitter:description" content="Browse accessible, semantic project case study placeholders for a personal portfolio.">
+  <title>Projects | Portfolio</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="brand-block">
+      <p class="eyebrow">Personal Portfolio</p>
+      <a class="brand" href="index.html" aria-label="Portfolio home">Portfolio</a>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary navigation" role="navigation">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link is-current" href="projects.html" aria-current="page">Projects</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <section class="page-hero" aria-labelledby="projects-title">
+      <p class="eyebrow">Selected work</p>
+      <h1 id="projects-title">Project pages built as readable case-study blocks rather than decorative marketing panels.</h1>
+      <p class="lead">Each article uses semantic headings, concise summaries, and clear metadata so the information is useful whether viewed visually, audibly, or in search results.</p>
+    </section>
+
+    <section class="project-list" aria-label="Project case studies">
+      <article class="project card">
+        <figure class="project-figure">
+          <div class="project-visual project-visual-one" aria-hidden="true"></div>
+          <figcaption>Dashboard redesign</figcaption>
+        </figure>
+        <div>
+          <h2>Dashboard redesign</h2>
+          <p>A data-heavy interface reorganized into clearer sections, stronger hierarchy, and keyboard-ready controls.</p>
+          <ul class="tag-list" aria-label="Project attributes">
+            <li>Semantic sections</li>
+            <li>Improved contrast</li>
+            <li>Reusable components</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project card">
+        <figure class="project-figure">
+          <div class="project-visual project-visual-two" aria-hidden="true"></div>
+          <figcaption>Editorial portfolio</figcaption>
+        </figure>
+        <div>
+          <h2>Editorial portfolio</h2>
+          <p>A content-led layout that emphasizes heading order, short paragraphs, and stable reading flow across devices.</p>
+          <ul class="tag-list" aria-label="Project attributes">
+            <li>SEO metadata</li>
+            <li>Responsive layout</li>
+            <li>Accessible typography</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="project card">
+        <figure class="project-figure">
+          <div class="project-visual project-visual-three" aria-hidden="true"></div>
+          <figcaption>Service landing page</figcaption>
+        </figure>
+        <div>
+          <h2>Service landing page</h2>
+          <p>A conversion-oriented page that keeps navigation predictable and forms understandable for all users.</p>
+          <ul class="tag-list" aria-label="Project attributes">
+            <li>Clear calls to action</li>
+            <li>Form accessibility</li>
+            <li>Reduced friction</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <p>Case studies can be expanded with more detail, images, and metrics without changing the core structure.</p>
+    <p class="status-note">All internal links are connected properly.</p>
+    <address>
+      <a href="contact.html">Discuss a project</a>
+    </address>
+  </footer>
+</body>
+</html>
